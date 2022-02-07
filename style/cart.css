@@ -1,0 +1,25 @@
+#container{
+    width:100%;
+    display: grid;
+  
+    grid-template-columns: repeat(1,1fr);
+    
+}
+#container > div{
+   
+    height:400px;
+    width: 410px;
+    border-radius:10px;
+    margin-left: 2%;
+    /*border:1px solid gray;*/
+}
+img{
+    width:360px;
+    height:310px;
+    border-radius:10px;
+
+}
+#menu{
+    height:50px;
+    width:200px;
+}

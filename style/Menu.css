@@ -1,0 +1,24 @@
+#container{
+    width:100%;
+    display: grid;
+  
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:30px;
+}
+#container > div{
+   
+    height:390px;
+    margin:auto;
+    border-radius:10px;
+    /*border:1px solid ;*/
+}
+img{
+    width:80%;
+    height:60%;
+    border-radius:10px;
+}
+#menu{
+    height:50px;
+    width:200px;
+
+}
